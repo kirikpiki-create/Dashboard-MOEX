@@ -1,18 +1,22 @@
 # 📈 Dynamic Forex & Market Analytics Dashboard
 
-> **[🚀 Live Interactive Demo](ЗАМЕНИТЕ_НА_ВАШУ_ССЫЛКУ_НА_STREAMLIT_CLOUD)**
-
 An enterprise-ready, interactive data visualization dashboard built with **Python**, **Streamlit**, and **Plotly**. It features a fully dynamic data architecture that automatically detects financial indicators, time series metrics, and statistical distributions from any transactional market dataset.
+
+## 🖥️ Dashboard Interface Preview
+![Main Dashboard Interface](screenshot1.png)
 
 ## 💡 Business & Engineering Value
 * **Zero-Configuration Architecture:** Automatically parses datetime indexes and filters numerical KPIs without hardcoded column mappings.
 * **Exploratory Data Analysis (EDA):** Delivers instant business intelligence insights through time-series trends, frequency distribution histograms, and statistical dispersion (Box Plots).
 * **Performance-Optimized:** Built leveraging Streamlit’s modern execution loop with vectorized pandas filters for instant reactive UI updates.
 
-## ✨ Key Features
+## ✨ Key Features & Deep-Dive Analytics
 * **Dynamic Sidebar Controls:** Real-time filtering by flexible date ranges and specific metric thresholds.
 * **Automated KPI Summary Cards:** Instant computation of period minimums, maximums, and rate of return (Delta % with conditional indicators).
 * **Deep-Dive Statistical Visualizations:** High-fidelity interactive charts with one-click zoom, isolation, and export tools powered by Plotly.
+
+![Analytics Distribution](screenshot2.png)
+*Statistical data distribution and dispersion analytics dashboards.*
 
 ## 🛠️ Tech Stack
 * **Framework:** Python / Streamlit
@@ -24,7 +28,7 @@ An enterprise-ready, interactive data visualization dashboard built with **Pytho
 1. **Clone the repository:**
    ```bash
    git clone https://github.com
-   cd НАЗВАНИЕ_РЕПОЗИТОРИЯ
+   cd Dashboard-MOEX
    ```
 
 2. **Install dependencies:**
@@ -35,7 +39,7 @@ An enterprise-ready, interactive data visualization dashboard built with **Pytho
 
 3. **Launch the application:**
    ```bash
-   streamlit run main.py
+   streamlit run Dashboard.py
    ```
    The dashboard will automatically open in your local browser at `http://localhost:8501`.
 
