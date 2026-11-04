@@ -16,24 +16,10 @@ An enterprise-ready, interactive data visualization dashboard built with **Pytho
 * **Deep-Dive Statistical Visualizations:** High-fidelity interactive charts with one-click zoom, isolation, and export tools powered by Plotly.
 
 ![Analytics Distribution](screenshot2.png)
-*Statistical data distribution and dispersion analytics dashboards.*
+*Historical metrics and distribution analysis screens.*
 
-# 📈 Dynamic Forex & Market Analytics Dashboard
-
-An interactive data visualization dashboard built with **Python**, **Streamlit**, and **Plotly** for analyzing financial indicators and time series metrics.
-
-## 🚀 Quick Start
-1. Clone and run the repository:
-   ```bash
-   git clone https://github.com
-   cd Dashboard-MOEX
-   pip install -r requirements.txt
-   streamlit run Dashboard.py
-   ```
-
-## 📄 License
-Open-source under the [MIT License](LICENSE).
-
+![Dispersion and Peak Values](screenshot3.png)
+*Statistical dispersion analytics dashboard featuring interactive Box Plot and Top 10 High Value trends.*
 
 ## 🛠️ Tech Stack
 * **Framework:** Python / Streamlit
