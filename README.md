@@ -18,6 +18,23 @@ An enterprise-ready, interactive data visualization dashboard built with **Pytho
 ![Analytics Distribution](screenshot2.png)
 *Statistical data distribution and dispersion analytics dashboards.*
 
+# 📈 Dynamic Forex & Market Analytics Dashboard
+
+An interactive data visualization dashboard built with **Python**, **Streamlit**, and **Plotly** for analyzing financial indicators and time series metrics.
+
+## 🚀 Quick Start
+1. Clone and run the repository:
+   ```bash
+   git clone https://github.com
+   cd Dashboard-MOEX
+   pip install -r requirements.txt
+   streamlit run Dashboard.py
+   ```
+
+## 📄 License
+Open-source under the [MIT License](LICENSE).
+
+
 ## 🛠️ Tech Stack
 * **Framework:** Python / Streamlit
 * **Data Processing:** Pandas / Pathlib
